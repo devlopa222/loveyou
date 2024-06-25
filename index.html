@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Two Year Anniversary Baby</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Happy Two Year Anniversary Baby</h1>
+        <button id="next-button">Next</button>
+    </div>
+    <div id="animation-container" style="display: none;">
+        <img id="airplane" src="airplane.png" alt="Dreamliner 787">
+        <img id="map" src="spain-map.png" alt="Map of Spain" style="display: none;">
+        <div id="car" style="display: none;">🚗</div>
+    </div>
+    <div id="quiz" style="display: none;">
+        <h2>Quiz</h2>
+        <form id="quiz-form">
+            <label>Where did we meet?</label><br>
+            <input type="radio" name="question1" value="a"> We haven't met<br>
+            <input type="radio" name="question1" value="b"> Prague<br>
+            <input type="radio" name="question1" value="c"> Madrid<br>
+            <input type="radio" name="question1" value="d"> Toronto<br><br>
+            
+            <label>Are we soulmates?</label><br>
+            <input type="radio" name="question2" value="true"> True<br>
+            <input type="radio" name="question2" value="false"> False<br><br>
+            
+            <label>Who loves who more?</label><br>
+            <input type="text" name="question3"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="photos" style="display: none;">
+        <h2>Upload Photos</h2>
+        <input type="file" id="photo-upload" multiple>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
